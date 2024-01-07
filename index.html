@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snow Dashboard</title>
+    <script src="https://kit.fontawesome.com/2f178f11e5.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Volkhov&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!--HEADER SECTION STARTS HERE-->
+    <header>
+        <div class="logo">
+            <img src="./images/logo.png" alt="">
+            <p>Destinize</p>
+        </div>
+        <div class="serch">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" value="Cari apapun disini...">
+        </div>
+        <div class="glob">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256"><path d="M128,28A100,100,0,1,0,228,128,100.11,100.11,0,0,0,128,28Zm87.64,128H169.49a157.43,157.43,0,0,0,0-56h46.15a92.09,92.09,0,0,1,0,56ZM128,220a3.76,3.76,0,0,1-2.78-1.23c-13.65-14.7-23.52-33.72-28.81-54.77h63.18c-5.29,21.05-15.16,40.07-28.81,54.77A3.76,3.76,0,0,1,128,220ZM94.65,156a149.25,149.25,0,0,1,0-56h66.7a149.25,149.25,0,0,1,0,56ZM128,36a3.76,3.76,0,0,1,2.78,1.23C144.43,51.93,154.3,71,159.59,92H96.41c5.29-21,15.16-40.07,28.81-54.77A3.76,3.76,0,0,1,128,36Zm84.66,56H167.81c-4.91-20.73-14-39.72-26.66-55.06A92.3,92.3,0,0,1,212.66,92ZM114.85,36.94C102.22,52.28,93.1,71.27,88.19,92H43.34A92.3,92.3,0,0,1,114.85,36.94ZM40.36,100H86.51a157.43,157.43,0,0,0,0,56H40.36a92.09,92.09,0,0,1,0-56Zm3,64H88.19c4.91,20.73,14,39.72,26.66,55.06A92.3,92.3,0,0,1,43.34,164Zm97.81,55.06c12.63-15.34,21.75-34.33,26.66-55.06h44.85A92.3,92.3,0,0,1,141.15,219.06Z"></path></svg>
+            
+            <p>Bahasa Indonesia</p>
+            <i class="fa-solid fa-caret-down"></i>
+        </div>
+        <div class="loc">
+            <button><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256"><path d="M128,68a36,36,0,1,0,36,36A36,36,0,0,0,128,68Zm0,64a28,28,0,1,1,28-28A28,28,0,0,1,128,132Zm0-112a84.09,84.09,0,0,0-84,84c0,30.42,14.17,62.79,41,93.62a250,250,0,0,0,40.73,37.66,4,4,0,0,0,4.58,0A250,250,0,0,0,171,197.62c26.81-30.83,41-63.2,41-93.62A84.09,84.09,0,0,0,128,20Zm37.1,172.23A254.62,254.62,0,0,1,128,227a254.62,254.62,0,0,1-37.1-34.81C73.15,171.8,52,139.9,52,104a76,76,0,0,1,152,0C204,139.9,182.85,171.8,165.1,192.23Z"></path></svg></button>
+            <p>Lokazi<br><span class="country">Indonesia, Yogyakarta</span>
+                <i class="fa-solid fa-caret-down"></i> 
+            </p>  
+        </div>
+    </header>
+    <hr>
+    <!--HEADER SECTION ENDS HERE-->
+    <main>
+        <section class="delete">
+            <ul>
+                <li>
+                    <a href="">Gunung</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256"><path d="M210.83,98.83l-80,80a4,4,0,0,1-5.66,0l-80-80a4,4,0,0,1,5.66-5.66L128,170.34l77.17-77.17a4,4,0,1,1,5.66,5.66Z"></path></svg>
+                </li>
+                <li>
+                    <a href="">Pantai</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256"><path d="M210.83,98.83l-80,80a4,4,0,0,1-5.66,0l-80-80a4,4,0,0,1,5.66-5.66L128,170.34l77.17-77.17a4,4,0,1,1,5.66,5.66Z"></path></svg>
+                </li>
+                <li>
+                    <a href="">Kuliner</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256"><path d="M210.83,98.83l-80,80a4,4,0,0,1-5.66,0l-80-80a4,4,0,0,1,5.66-5.66L128,170.34l77.17-77.17a4,4,0,1,1,5.66,5.66Z"></path></svg>
+                </li>
+                <li>
+                    <a href="">Outbond</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256"><path d="M210.83,98.83l-80,80a4,4,0,0,1-5.66,0l-80-80a4,4,0,0,1,5.66-5.66L128,170.34l77.17-77.17a4,4,0,1,1,5.66,5.66Z"></path></svg>
+                </li>
+                <li>
+                    <a href="">Sejarah</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256"><path d="M210.83,98.83l-80,80a4,4,0,0,1-5.66,0l-80-80a4,4,0,0,1,5.66-5.66L128,170.34l77.17-77.17a4,4,0,1,1,5.66,5.66Z"></path></svg>
+                </li>
+                <li>
+                    <a href="">Edukasi</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256"><path d="M210.83,98.83l-80,80a4,4,0,0,1-5.66,0l-80-80a4,4,0,0,1,5.66-5.66L128,170.34l77.17-77.17a4,4,0,1,1,5.66,5.66Z"></path></svg>
+                </li>
+                <li>
+                    <a href="">Romantis</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256"><path d="M210.83,98.83l-80,80a4,4,0,0,1-5.66,0l-80-80a4,4,0,0,1,5.66-5.66L128,170.34l77.17-77.17a4,4,0,1,1,5.66,5.66Z"></path></svg>
+                </li>
+                <li>
+                    <a href="">Alam</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256"><path d="M210.83,98.83l-80,80a4,4,0,0,1-5.66,0l-80-80a4,4,0,0,1,5.66-5.66L128,170.34l77.17-77.17a4,4,0,1,1,5.66,5.66Z"></path></svg>
+                </li>
+            </ul>
+
+            <div class="nav-button">
+                <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256"><path d="M216,52H172V40a20,20,0,0,0-20-20H104A20,20,0,0,0,84,40V52H40a4,4,0,0,0,0,8H52V208a12,12,0,0,0,12,12H192a12,12,0,0,0,12-12V60h12a4,4,0,0,0,0-8ZM92,40a12,12,0,0,1,12-12h48a12,12,0,0,1,12,12V52H92ZM196,208a4,4,0,0,1-4,4H64a4,4,0,0,1-4-4V60H196ZM108,104v64a4,4,0,0,1-8,0V104a4,4,0,0,1,8,0Zm48,0v64a4,4,0,0,1-8,0V104a4,4,0,0,1,8,0Z"></path></svg>
+                </button>
+                <button class="user">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256"><path d="M227.46,214c-16.52-28.56-43-48.06-73.68-55.09a68,68,0,1,0-51.56,0c-30.64,7-57.16,26.53-73.68,55.09a4,4,0,0,0,6.92,4C55,184.19,89.62,164,128,164s73,20.19,92.54,54a4,4,0,0,0,3.46,2,3.93,3.93,0,0,0,2-.54A4,4,0,0,0,227.46,214ZM68,96a60,60,0,1,1,60,60A60.07,60.07,0,0,1,68,96Z"></path></svg>
+                </button>
+            </div>    
+        </section>
+        <!--DELETE SECTION ENDS HERE............-->
+
+        <section class="explore">
+            <div class="astro">
+                <div class="astro-text">
+                    <button class="astro-btn1">✈ • Explore the wonderful indonesia!</button>
+                    <h2>Liburan & nikmati
+                        <span class="tem">tempat baru</span> di
+                        indonesia
+                    </h2>
+                    <p>Destinize membuat kamu selalu update terkait tempat liburan baru di 
+                        Indonesia dengan mengikuti perkembangan para influencer di sosial media ✨
+                    </p>
+                    <div class="pt">
+                        <button>Mulai sekarang →</button>
+                        <i class="fa-regular fa-circle-play"></i>
+                        <span>Putar Demo</span>
+                    </div>
+                </div>
+
+                <img src="./images/Astronut Img.png" alt="">
+            </div>
+        </section>
+        <!--EXPLORE SECTION ENDS HERE.............-->
+
+<!--LOGO SECTION STARTS HERE............-->
+        <section class="logo-sec">
+            <div class="logo-div">
+                <img src="./images/logo2.png" alt="">
+                <img src="./images/logo3.png" alt="">
+                <div class="rectangle"><img src="./images/logo4.png" alt=""></div>
+                <img src="./images/logo5.png" alt="">
+                <img src="./images/logo6.png" alt="">
+            </div>
+        </section>
+<!--LOGO SECTION ENDS HERE.........-->
+
+<!--DESTINSTION SECTION STARTS HERE.....-->
+        <section class="destination">
+            <p class="des">DESTINASI FAVORIT</p>
+            <div class="fav">
+                <h5>✈ • Temukan Destinasi Favoritmu</h5>
+                <p>Lihat semua <span>></span></p>
+                
+            </div>
+            <div class="raja">
+                <div class="wallpaper">
+                    <img src="./images/wallpaper1.png" alt="">
+                    <div class="Ntt">
+                        <p>Raja Ampat<br><span>Bali</span></p>
+                    </div>
+                </div>
+
+                <div class="wallpaper">
+                    <img src="./images/wallpaper2.png" alt="">
+                    <div class="Ntt">
+                        <p>Labuan Bajo<br><span>NTT</span></p>
+                    </div>
+                </div>
+
+                <div class="wallpaper">
+                    <img src="./images/wallpaper3.png" alt="">
+                    <div class="Ntt">
+                        <p>Kawah Ijen<br><span>Jawa Timur</span></p>
+                    </div>
+                </div>
+
+                <div class="wallpaper">
+                    <img src="./images/wallpaper4.png" alt="">
+                    <div class="Ntt">
+                        <p>Bromo<br><span>Jawa Timur</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--DESTINSTION SECTION ENDS HERE.....-->
+
+        <!--RESERVE SECTION STARTS HERE-->
+        <section class="reserve">
+            <p class="res">RESERVASI TEMPAT</p>
+            <h5 class="mau">Gak mau ngantri? <br>reservasi aja! 🤙🏻</h5>
+            <div class="i-gak">
+                <div class="d-icons">
+                    <div class="icon-div">
+                        <div class="lolipop">
+                            🔎
+                        </div>
+                        <div class="icon-txt">
+                            <h6>Cari tempat yang kamu mau</h6>
+                            <p>Temukan destinasi selanjutnya yang akan kamu <br>kunjungi dengan Destinize</p>
+                        </div>
+                    </div>
+
+                    <div class="icon-div">
+                        <div class="loli">
+                            <i class="fa-solid fa-pencil"></i>
+                        </div>
+                        <div class="icon-txt">
+                            <h6>Isi data dan konfirmasi pembayaran</h6>
+                            <p>Tulis dan lengkapi data kamu untuk keperluan <br>data booking</p>
+                        </div>
+                    </div>
+
+                    <div class="icon-div">
+                        <div class="lolipop">
+                            😍
+                        </div>
+                        <div class="icon-txt">
+                            <h6>Tinggal masuk dan enjoy!</h6>
+                            <p>Kamu bisa langsung masuk dan enjoy liburan <br> kamu tanpa hambatan</p>
+                        </div>
+                    </div>   
+                </div>
+<!-- SECOND DIV OF THE SECTION -->
+                <div class="sec9">
+                    <div class="icon-img">
+                        <img src="./images/bali.jpg" alt="">
+                        <div class="lib">
+                            <h5>Liburan ke Bali</h5>
+                            <i class="fa-solid fa-car-side"></i>
+                        </div>
+    
+                        <div class="date">
+                            <p>14-29 Juni</p>
+                            <span>|</span>
+                            <p>by Shandika</p>
+                        </div>
+    
+                        <div class="eclise">
+                            <div class="svg-eclise">
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-leaf"></i>  
+                            </div>
+                            <div class="svg-eclise">
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-regular fa-map"></i>
+                            </div>
+                            <div class="svg-eclise">
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </div>  
+                        </div>
+    
+                        <div class="orang">
+                            <div class="orang-txt">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256"><path d="M240,210H222V96a14,14,0,0,0-14-14H142V32a14,14,0,0,0-21.77-11.64l-80,53.33A14,14,0,0,0,34,85.34V210H16a6,6,0,0,0,0,12H240a6,6,0,0,0,0-12ZM208,94a2,2,0,0,1,2,2V210H142V94ZM46,85.34a2,2,0,0,1,.89-1.66l80-53.34A2,2,0,0,1,130,32V210H46ZM110,112v16a6,6,0,0,1-12,0V112a6,6,0,0,1,12,0Zm-32,0v16a6,6,0,0,1-12,0V112a6,6,0,0,1,12,0Zm0,56v16a6,6,0,0,1-12,0V168a6,6,0,0,1,12,0Zm32,0v16a6,6,0,0,1-12,0V168a6,6,0,0,1,12,0Z"></path></svg>
+                                <p>12 Orang pergi bersama</p>
+                            </div>
+                            <svg class="sv" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256"><path d="M221.6,58.38a56.06,56.06,0,0,0-79.12-.08L128,71.78,113.52,58.3a56,56,0,0,0-79.15,79.25l89.36,90.66a6,6,0,0,0,8.54,0l89.33-90.62a56,56,0,0,0,0-79.21Zm-8.52,70.75L128,215.45,42.89,129.1a44,44,0,0,1,62.22-62.23,1.07,1.07,0,0,0,.16.14l18.64,17.36a6,6,0,0,0,8.18,0L150.73,67a1.07,1.07,0,0,0,.16-.14,44,44,0,1,1,62.19,62.26Z"></path></svg>
+                        </div>
+    
+                    </div>
+
+                <div class="absolut-div">
+                    <div class="absolut-img">
+                        <img src="./images/abolut-img.png" alt="">
+                    </div>
+
+                    <div class="absolut-txt">
+                        <p>Ongoing</p>
+                        <h5>Jelajah Indonesia</h5>
+                        <p class="percen">40%<span>completed</span></p>
+                        <img src="./images/dash dash.png" alt="">
+                    </div>
+                </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- RESERVE SECTIONS ENDS HERE -->
+
+        <!-- SECTION 10...CARI SECTION -->
+        <section class="sec10">
+            <p class="ct">CARI TEMPAT WISATA</p>
+            <h5>🗺 • Cari Tempat Wisata Didekatmu</h5>
+            <p class="ft">Fitur ini memungkinkan kamu untuk mencari tempat wisata atau tempat yang sedang populer di <br> daerah kamu dengan begitu kamu akan selalu update dan gak kudet lagi 👍🏻</p>
+
+            <div class="map-sec">
+                <img src="./images/map.png" alt="">
+            </div>
+            
+            <div class="three-div">
+                <div class="inner-div">
+                    <div>
+                        <i class="fa-solid fa-circle"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                            <g clip-path="url(#clip0_1928_14543)">
+                              <path d="M20.8569 1V4H23.8569V6H20.8569V9H18.8569V6H15.8569V4H18.8569V1H20.8569ZM12.8569 13C13.9569 13 14.8569 12.1 14.8569 11C14.8569 9.9 13.9569 9 12.8569 9C11.7569 9 10.8569 9.9 10.8569 11C10.8569 12.1 11.7569 13 12.8569 13ZM14.8569 3.25V7H17.8569V10H20.7769C20.8269 10.39 20.8569 10.79 20.8569 11.2C20.8569 14.52 18.1869 18.45 12.8569 23C7.52693 18.45 4.85693 14.52 4.85693 11.2C4.85693 6.22 8.65693 3 12.8569 3C13.5369 3 14.2069 3.08 14.8569 3.25Z" fill="#323232"/>
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_1928_14543">
+                                <rect width="24" height="24" fill="white" transform="translate(0.856934)"/>
+                              </clipPath>
+                            </defs>
+                          </svg>
+                    </div>
+                    <div>
+                        <h4>Populer di dekatmu</h4>
+                        <p>Tempat pariwisata yang populer <br> dan pasti dikenal semua orang <br> didekatmu</p>
+                    </div>
+                </div>
+                <div class="inner-div">
+                    <div>
+                        <i class="fa-solid fa-circle"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                            <g clip-path="url(#clip0_1928_14552)">
+                              <path d="M12.8569 21.35L11.4069 20.03C6.25692 15.36 2.85692 12.28 2.85692 8.5C2.85692 5.42 5.27692 3 8.35691 3C10.0969 3 11.7669 3.81 12.8569 5.09C13.9469 3.81 15.6169 3 17.3569 3C20.4369 3 22.8569 5.42 22.8569 8.5C22.8569 12.28 19.4569 15.36 14.3069 20.04L12.8569 21.35Z" fill="#323232"/>
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_1928_14552">
+                                <rect width="24" height="24" fill="white" transform="translate(0.856918)"/>
+                              </clipPath>
+                            </defs>
+                          </svg>
+                    </div>
+                    <div>
+                        <h4>Favorit di dekatmu</h4>
+                        <p>Tempat favorit dan disukai semua <br> orang orang di sekitar daerah kamu</p>
+                    </div>
+                </div>
+                <div class="inner-div">
+                    <div class="group">
+                        <i class="fa-solid fa-circle"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="12" viewBox="0 0 25 12" fill="none">
+                            <path d="M12.1429 6.75C13.7729 6.75 15.2129 7.14 16.3829 7.65C17.4629 8.13 18.1429 9.21 18.1429 10.38V12H6.14285V10.39C6.14285 9.21 6.82285 8.13 7.90285 7.66C9.07285 7.14 10.5129 6.75 12.1429 6.75ZM4.14285 7C5.24285 7 6.14285 6.1 6.14285 5C6.14285 3.9 5.24285 3 4.14285 3C3.04285 3 2.14285 3.9 2.14285 5C2.14285 6.1 3.04285 7 4.14285 7ZM5.27285 8.1C4.90285 8.04 4.53285 8 4.14285 8C3.15285 8 2.21285 8.21 1.36285 8.58C0.622853 8.9 0.142853 9.62 0.142853 10.43V12H4.64285V10.39C4.64285 9.56 4.87285 8.78 5.27285 8.1ZM20.1429 7C21.2429 7 22.1429 6.1 22.1429 5C22.1429 3.9 21.2429 3 20.1429 3C19.0429 3 18.1429 3.9 18.1429 5C18.1429 6.1 19.0429 7 20.1429 7ZM24.1429 10.43C24.1429 9.62 23.6629 8.9 22.9229 8.58C22.0729 8.21 21.1329 8 20.1429 8C19.7529 8 19.3829 8.04 19.0129 8.1C19.4129 8.78 19.6429 9.56 19.6429 10.39V12H24.1429V10.43ZM12.1429 0C13.8029 0 15.1429 1.34 15.1429 3C15.1429 4.66 13.8029 6 12.1429 6C10.4829 6 9.14285 4.66 9.14285 3C9.14285 1.34 10.4829 0 12.1429 0Z" fill="#323232"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h4>Ramai di didekatmu</h4>
+                        <p>Spot yang paling ramai dikunjungi <br> para warga sekaligus para <br> wisatawan</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+<!-- SEC-11 STARTS HERE............. -->
+        <section class="sec-11">
+            <p>MENGENAL DESTINIZE</p>
+            <div class="galeri">
+                <h5>🖼• Galeri Pariwisata & Blog Travel</h5>
+                <p>Lihat semua</p>
+            </div>
+
+            <div class="grid-container">
+                <div class="sidebar">
+                    <img src="./images/cover.png" alt="">
+                    <p>26 DESEMBER 2021</p>
+                    <h5>Tips naik gunung Bromo <br> 
+                        Biar gak capek cyin 😥😛
+                    </h5>
+                    <h6>Jadi gini gann, anda tau bromo? <br>
+                        yaaa gunung kann!
+                    </h6>
+                    <a href="">Baca selengkapnya ..</a>
+                </div>
+
+                <div class="mainbar">
+                    <img src="./images/video-img.jpg" alt="">
+                </div>
+
+                <div class="footerbar">
+                    <h4>Tips meminum air kawah biar lidah melepuh 😁</h4>
+                    <p>Lidah melepuh? why nott, kawah bukan untuk dilihat kawan.. tapi untuk di minum.. <br> rasakan
+                        kepanasan yang brutal 🔥
+                    </p>
+                    <div class="goo">
+                        <h6>Google</h6>
+                        <h6>Trending</h6>
+                        <h6>Baru</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEC-12 STARTS HERE....... -->
+        <section class="sec-12">
+            <div class="sec-12-div">
+                <p>TESTIMONIAL DESTINIZE</p>
+                <div class="apa">
+                    <i class="fa-regular fa-comment-dots"></i>
+                    <h5>• Apa Kata Mereka Tentang Kami</h5>
+                </div>
+                <div class="last-p12">
+                    <p>Penasaran apa saja review dari pengguna yang memakai aplikasi dan website Destinize buat <br> nentuin kemana liburan mereka selanjutnya? Yuk cek dibawah!</p>
+                </div>
+            </div>
+
+            <div class="image12-div">
+                <div class="rates">
+                    <img src="./images/person1.png" alt="">
+                    <p>Destinize membantu saya <br>
+                        Mencari spot tempat wisata baru <br>
+                        di Indonesia dengan Mudah
+                    </p>
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="">Sandhika Galih</a>
+                    <h6>Dosen di WPU</h6>
+                </div>
+
+                <div class="rates">
+                    <img src="./images/person2.png" alt="">
+                    <p>Destinize membantu saya <br>
+                        mendapatkan jodoh, tidak disangka <br>
+                        bahwa jodoh saya adalah CS nyaah
+                    </p>
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="">Syauqizaidan Khairan Khalaf</a>
+                    <h6>Mahasiswa di WPU</h6>
+                </div>
+
+                <div class="rates">
+                    <img src="./images/person3.png" alt="">
+                    <p>Bikini Bottom menjadi sangat <br>
+                        ramai dikunjungi saat saya <br>
+                        memasukkannya di Destinize
+                    </p>
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="">Petrik Sesat</a>
+                    <h6>Warga di Bikini Bottom</h6>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEC-13 STARTS HERE...... -->
+        <section class="sec-13">
+            <p>FREQUENTLY ASKED QUESTION</p>
+            <div class="yang">
+                <h5>🤔• Pertanyaan yang Sering Diajukan</h5>
+                <p>Lihat semua</p>
+            </div>
+
+            <div class="kenapa">
+                <h5>Kenapa ya pembayaranku gagal banh? 😁</h5>
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+
+            <div class="kenapa">
+                <h5>Apakah rehan wangsaff adalah CEO dari Destinize? 😅😅😅</h5>
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+
+            <div class="long-p">
+                <div class="mem">
+                    <button>Kenapa harus memilih Destinize?</button>
+                    <i class="fa-solid fa-chevron-up"></i>
+                </div>
+
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
+                    dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                    book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
+                    dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                    book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
+                    dummy text ever since the 1500s, wh
+                </p>
+            </div>
+
+            <div class="kenapa">
+                <h5>Afa iyah bang? Gapeduli 👆🏻😅</h5>
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+
+            <div class="kenapa">
+                <h5>Apa rekomendasi tempat buat orang yang jomblo? 😥</h5>
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+        </section>
+
+        <!-- SEC-14 STARTS HERE.......... -->
+        <section class="sec-14">
+            <div class="p-div">
+                <p class="pee1">Masih bingung cari <br> tempat yang cocok? 🤔</p>
+                <p class="pee2">Tenang, kami mempunyai fitur rekomendasi yang <br> membantu kamu mencari tempat berlibur yang tepat <br> dengan menjawab pertanyaan yang kami berikan.</p>
+                <div class="pee3-div">
+                    <p class="pee3">Mulai sekarang</p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+
+            <div class="last-img14">
+                <img src="./images/last image.png" alt="">
+            </div>
+        </section>
+
+        <!-- FOOTER SECTION STARTS HERE....... -->
+        <footer>
+            <div class="footer-div1">
+                <div class="footer-logo">
+                    <img src="./images/logo.png" alt="">
+                    <p class="fp1">Destinize</p>
+                    <p class="fp2">Destinize adalah website atau layanan aplikasi yang membantu kamu <br> memilih atau merekomendasikan tempat yang dijuluki ‘hidden gems’ agar <br> lebih dikenal dan ramai <span>Baca Selengkapnya</span> </p>
+                    <div class="footer icon1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256"><path d="M154.2,38.45a6,6,0,0,1,7.35-4.25A84.24,84.24,0,0,1,221.8,94.45a6,6,0,0,1-4.25,7.35,5.94,5.94,0,0,1-1.55.2,6,6,0,0,1-5.8-4.45A72.34,72.34,0,0,0,158.45,45.8,6,6,0,0,1,154.2,38.45ZM150.45,77.8C165,81.68,174.32,91,178.2,105.55A6,6,0,0,0,184,110a5.94,5.94,0,0,0,1.55-.2,6,6,0,0,0,4.25-7.35c-5-18.71-17.54-31.25-36.25-36.25a6,6,0,1,0-3.1,11.6Zm79.44,97A54.25,54.25,0,0,1,176,222C97.7,222,34,158.3,34,80A54.25,54.25,0,0,1,81.17,26.11,14,14,0,0,1,95.73,34.5l21.1,47.1a14,14,0,0,1-1.12,13.28,6,6,0,0,1-.42.57L94.22,120.51a1.89,1.89,0,0,0,0,1.67c7.66,15.68,24.1,32,40,39.65a1.88,1.88,0,0,0,1.68-.06l24.69-21a4.81,4.81,0,0,1,.56-.42,14,14,0,0,1,13.28-1.22l47.24,21.17A14,14,0,0,1,229.89,174.83ZM218,173.32a2,2,0,0,0-1.21-2l-47.25-21.17a1.92,1.92,0,0,0-1.6.1l-24.68,21c-.18.15-.37.29-.56.42a14,14,0,0,1-13.77,1c-18.36-8.87-36.66-27-45.53-45.19a14,14,0,0,1,.91-13.73,4.73,4.73,0,0,1,.43-.57l21.06-25.06a2,2,0,0,0,0-1.67L84.74,39.31A2,2,0,0,0,82.9,38h-.23A42.24,42.24,0,0,0,46,80c0,71.68,58.32,130,130,130A42.24,42.24,0,0,0,218,173.32Z"></path></svg>
+                        <p>0851-5616-2840</p>
+                    </div>
+                    <div class="footer icon2">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>syaokay@gmail.com</p>
+                    </div>
+                    <div class="footer icon3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256"><path d="M128,66a38,38,0,1,0,38,38A38,38,0,0,0,128,66Zm0,64a26,26,0,1,1,26-26A26,26,0,0,1,128,130Zm0-112a86.1,86.1,0,0,0-86,86c0,30.91,14.34,63.74,41.47,94.94a252.32,252.32,0,0,0,41.09,38,6,6,0,0,0,6.88,0,252.32,252.32,0,0,0,41.09-38c27.13-31.2,41.47-64,41.47-94.94A86.1,86.1,0,0,0,128,18Zm0,206.51C113,212.93,54,163.62,54,104a74,74,0,0,1,148,0C202,163.62,143,212.93,128,224.51Z"></path></svg>
+                        <p>Ciamis, Jawa Barat. Indonesia</p>
+                    </div>
+                    <div class="footer icon4">
+                        <i class="fa-solid fa-fax"></i>
+                        <p>+1-212-9876543</p>
+                    </div>
+                </div>
+
+                <div class="footer-ryt">
+                    <div class="ryt1">
+                        <p class="rp1">Tentang</p>
+                        <p>Tentang Kami</p>
+                        <p>Blog</p>
+                        <p>Karir</p>
+                        <p>Pekerjaan</p>
+                        <p>Berita</p>
+                        <p>Galeri</p>
+                        <p>Afiliasi</p>
+                    </div>
+
+                    <div class="ryt1">
+                        <p class="rp1">Support</p>
+                        <p>Kontak  Kami</p>
+                        <p>Online Chat</p>
+                        <p>Whatsapp</p>
+                        <p>Telegram</p>
+                        <p>Tiket</p>
+                        <p>Call Center</p>
+                        <p>Bantuan</p>
+                    </div>
+
+                    <div class="ryt1">
+                        <p class="rp1">FAQ</p>
+                        <p>Akun</p>
+                        <p>Organisir</p>
+                        <p>Order</p>
+                        <p>Pembayaran</p>
+                        <p>Pengembalian</p>
+                        <p>Copyright</p>
+                        <p>Bahasa</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lp">
+                <div class="footerdate">
+                    <p>© 2021-2022, All Rights Reserved</p>
+                </div>
+
+                <div class="ryt-reserve">
+                    <p>Tentang Kami</p>
+                    <p>Kontak</p>
+                    <p>Privasi & policy</p>
+                    <p>Sitemap</p>
+                    <p>Panduan Pengunaan</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>

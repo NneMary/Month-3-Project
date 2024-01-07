@@ -1,0 +1,1557 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    width: 100%;
+}
+/* HEADER STYLES START BELOW */
+header {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 90px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo p {
+    color: #000;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: normal;
+}
+
+.serch {
+    background: #F0F1F2;
+    width: 37%;
+    height: 30px;
+    padding: 20px 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.serch input {
+    background: none;
+    border: none;
+    color: #9A9EA6;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px;
+}
+
+.serch i {
+    color: #9A9EA6;
+}
+
+.glob {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.glob p {
+    color:  #9A9EA6;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.glob svg {
+    fill: #9A9EA6;
+    width: 30px;
+}
+
+.glob i {
+    color: #9A9EA6;;
+}
+
+.loc {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.loc p {
+    color: #9A9EA6;
+    font-family: Plus Jakarta Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2;
+}
+
+.loc .country {
+    color: #4475F2;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0.01;
+}
+
+.loc i {
+    padding-left: 10px;
+    font-size: 16px;
+    color: #4475F2;
+}
+
+.loc button {
+    border-radius: 30px;
+    width: 35px;
+    border: none;
+    background: #E3EBFD;
+}
+
+.loc button svg {
+    fill: #4475F2;
+    padding: 5px 2px 0 2px;
+}
+
+hr {
+    margin-top: 20px;
+    background-color: #F0F1F2;;
+}
+
+/* HEADER STYLES ENDS HERE........................ */
+
+/* DELETE SECTION STARTS HERE......  */
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+.delete {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow:hidden;
+}
+
+.delete ul {
+    display: flex;
+    align-items: center;
+    gap: 40px; 
+    width: 60%;
+    margin-top: 20px;
+}
+
+.delete ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.delete ul li a {
+    text-decoration: none;
+    color:  #9A9EA6;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.delete ul li svg {
+    width: 16px;
+    height: 16px;
+}
+
+.nav-button {
+    width: 20%;
+    display: flex;
+    /* justify-content: flex-end; */
+    gap: 10px;
+    margin-top: 20px;
+    margin-right: -10%;
+}
+
+.nav-button button svg {
+    width: 30px;
+    padding: 3px 0;
+    fill: white;
+}
+
+.nav-button .user svg {
+    fill: #4475F2;
+}
+
+.nav-button button {
+    width: 35px;
+    border: none;
+    border-radius: 50px;
+    background: #4475F2;
+}
+
+.nav-button .user {
+    margin-right: 4px;
+    background-color: #E3EBFD;
+}
+/* DELETE SECTION ENDS HERE........... */
+
+/* EXPLORE SECTION STARTS HERE........ */
+.explore {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.explore .astro {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.astro .astro-text {
+    width: 48%;
+}
+
+.astro-text .astro-btn1 {
+    margin: 30px 0 30px 0;
+    color: #4F7DF3;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 3px 5px;
+    width: 350px;
+    border: none;
+    border-radius: 30px;
+    background: #E5EDFF
+}
+.astro-text h2 {
+    color: #181E4B;
+    font-family: Plus Jakarta Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 70px;
+    letter-spacing: -3.04px;
+}
+
+.astro-text .tem {
+    color: #4475F2;
+    font-family: Plus Jakarta Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 70px;
+    letter-spacing: -3.04px;
+}
+
+.astro-text p {
+    color: #5E6282;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    width: 477px;
+    margin: 20px 0;
+}
+
+.astro-text .pt {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.astro-text .pt button {
+    border-radius: 10px;
+    background: #4475F2;
+    width: 30%;
+    color: #fff;
+    height: 48px; 
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    box-shadow: 0px 20px 35px 0px rgba(68, 117, 242, 0.21);
+}
+
+.astro-text .pt i {
+    font-size: 40px;
+    margin-left: 20px;
+    color: #4475F2;
+    /* box-shadow: 5px 5px 5px 0px rgba(68, 117, 242, 0.21); */
+}
+
+.astro-text .pt span{
+    color: #686D77;
+    font-family: Plus Jakarta Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.astro img {
+    width: 50%;
+    margin-right: -70px;
+} 
+ /* EXPLORE SECTION ENDS HERE......... */
+
+.logo-sec {
+    width: 100%;
+    margin-top: -10%;
+}
+
+.logo-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-div .rectangle {
+    height: 50px;
+    width: 190px;
+    background-color: #fff;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+    position: relative;
+}
+
+.logo-div .rectangle img {
+    position: absolute;
+    top: -64px;
+}
+
+/* DESTINSTION SECTION STARTS HERE..... */
+.destination {
+    margin: 40px 0;
+}
+
+.destination .des {
+    color: #4475F2;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 26.5px; 
+    letter-spacing: 1.71px;
+}
+
+.destination .fav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.destination .fav h5 {
+    color: #14183E;
+    font-family: Manrope;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: -0.36px;
+}
+
+.destination .fav p {
+    color: #4475F2;
+    font-family: Plus Jakarta Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.destination .fav span {
+    color: #4737FF;
+    padding-left: 5px;
+}
+
+.destination .raja {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 16px;
+}
+
+.destination .wallpaper {
+    width: 23%;
+    position: relative;
+    border-radius: 16px;
+    height: 54vh;
+    box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+}
+
+.destination .wallpaper img {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+}
+
+.wallpaper .Ntt {
+    width: 50%;
+    padding: 10px 0 10px 10px;
+    position: absolute;
+    background-color: blue;
+    bottom: 0;
+    left: 0;
+    border-radius: 0px 6px 0px 0px;
+    background: rgba(255, 255, 255, 0.70);
+    backdrop-filter: blur(5px);
+}
+
+.wallpaper .Ntt p {
+    color: #042521;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20.5px;
+}
+
+.wallpaper .Ntt span {
+    color: #80918E;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20.5px;
+}
+
+/* RESERVE SECTION STARTS HERE */
+.reserve {
+    margin-top: 10%;
+}
+
+.reserve .res {
+    color: #4475F2;
+    font-family: Manrope;
+    font-size: 14px;
+    padding-bottom: 5px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 26.5px; 
+    letter-spacing: 1.71px;
+}
+
+.reserve .mau {
+    color: #14183E;
+    font-family: Plus Jakarta Sans;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 45px;
+    /* padding-bottom: 30px; */
+}
+
+.reserve .i-gak {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.i-gak .d-icons {
+    width: 50%;
+    margin-top: -2%;
+}
+
+.i-gak .d-icons .icon-div {
+    display: flex;
+    gap: 20px;
+    padding-top: 60px;
+}
+
+.lolipop{
+    background-color: #EFE0B4;
+    width: 70px;
+    text-align: center;
+    padding-top: 25px;
+    border-radius: 13px;
+}
+
+.loli {
+    background-color: #EFE0B4;
+    width: 70px;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 13px;
+}
+
+.icon-txt h6{
+    color: #5E6282;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 5px;
+    line-height: 124.5%;
+}
+
+.icon-txt p {
+    color: #5E6282;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 124.5%; 
+}
+/* RIGHT DIV OF THE RESERVE SECTION */
+.sec9 {
+    width: 49%;
+    position: relative;  
+    margin-top: -5%;
+    background-color: #fff;
+}
+
+.sec9 .icon-img {
+    width: 70%; 
+    position: relative;
+    z-index: 5; 
+    border-radius: 26px;
+    border-radius: 26px;
+    background:  #fff;
+    padding: 20px 0 20px 0;
+    box-shadow: 45px 70px blue;
+    box-shadow: 0px 3.852px 3.148px 0px rgba(0, 0, 0, 0.00), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 
+    0px 100px 80px 0px rgba(0, 0, 0, 0.02),
+    0px 20px 35px 0px rgba(68, 117, 242, 0.21);
+}
+
+.sec9 .icon-img img {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.icon-img .lib {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+/* .icon-img .lib i {
+    color: red;
+} */
+
+.icon-img .lib h5 {
+    color:  #080809;
+    padding: 0 24px;
+    font-family: Plus Jakarta Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 124.5%;
+    letter-spacing: 0.27px
+}
+
+.icon-img .date {
+    display: flex;
+    align-items: center;
+    padding: 20px 0 0 24px;
+    gap: 20px;
+    color: #84829A;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 124.5%;
+    letter-spacing: -0.08px;
+}
+
+.eclise {
+    display: flex;
+    gap: 25px;
+    padding: 30px 0 20px 24px;
+}
+
+.svg-eclise {
+    position: relative;
+}
+
+.svg-eclise .fa-circle {
+    font-size: 58px;
+    color: #F5F5F5;
+    position: relative;
+    z-index: -1;
+}
+
+.fa-leaf, .fa-map, .fa-paper-plane {
+    font-size: 22px;
+    color: #84829A;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* z-index: 4; */
+}
+
+.orang {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px 0 24px;
+}
+
+.orang .orang-txt {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.orang .orang-txt p {
+    color: #84829A;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 124.5%; /* 19.92px */
+    letter-spacing: -0.32px;
+}
+
+.orang .orang-txt svg {
+    fill: #84829A;;
+}
+
+.orang .sv {
+    fill: #4475F2;
+}
+
+.sec9 .absolut-div {
+    position: absolute;
+    bottom: 48px;
+    z-index: 8;
+    right: -5px;
+    width: 58%;
+    flex-shrink: 0;;
+    border-radius: 18px;
+    background: #FFF;
+    box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 24px;
+}
+
+.absolut-div .absolut-img img {
+    border-radius: 50px;
+    width: 80px;
+    margin-top: -60px;
+}
+
+.absolut-div .absolut-txt p {
+    color: #84829A;
+    padding: 20px 0 10px 0;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 124.5%; /* 17.43px */
+    letter-spacing: -0.49px;
+}
+
+.absolut-div .absolut-txt h5 {
+    color: #080809;
+    padding-bottom: 15px;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 124.5%; /* 22.41px */
+    letter-spacing: -0.27px;
+}
+
+.absolut-div .absolut-txt .percen {
+    color: #4475F2;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 124.5%; /* 17.43px */
+    letter-spacing: -0.77px;
+}
+
+.absolut-div .absolut-txt span {
+    color: #080809;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 124.5%;
+    letter-spacing: -0.77px;
+    padding-left: 10px;
+}
+
+.absolut-div .absolut-txt img {
+    padding-bottom: 20px;
+}
+/* RESERVE SECTION ENDS HERE */
+
+/* SECTION 10......CARI SECTION STARTS HERE.... */
+
+.sec10 {
+    width: 100%;
+    margin-top: 10%;
+}
+.sec10 .ct {
+    color: #4737FF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 26.5px; 
+    letter-spacing: 1.71px;
+}
+
+.sec10 h5 {
+    color: #151D21;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 62px; 
+    letter-spacing: -1px;
+}
+
+.sec10 .ft {
+    color: var(--Text-Gray-900, #18191F);
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.sec10 .map-sec {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.sec10 .map-sec img {
+    height: 60vh;
+    width: 100%;
+    /* padding-bottom: 40px; */
+    box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 5px 3px 0px rgba(0, 0, 0, 0.01), 0px 7.519px 6.481px 0px rgba(0, 0, 0, 0.01), 0px 24.815px 16.852px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+}
+
+.sec10 .three-div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.sec10 .inner-div {
+    width: 26%;
+    display: flex;
+    gap: 20px;
+}
+
+.inner-div div i {
+    font-size: 50px;
+    color: #EFF2F6;
+    position: relative;
+}
+
+.inner-div div {
+    position: relative;
+}
+
+.inner-div div svg {
+    position: absolute;
+    left: 13px;
+    top: 12px;
+}
+
+.inner-div .group svg {
+    top: 16px;
+}
+
+.inner-div div h4 {
+    color: #18214D;
+    font-family: Manrope;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: -0.55px;
+    padding-bottom: 5px;
+}
+
+.inner-div div p {
+    color: #3E4462;
+    font-family: Manrope;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+/* SEC-11 STARTS HERE...... */
+.sec-11 {
+    margin: 70px 0;
+    width: 100%;
+}
+
+.sec-11 p {
+    color: #4475F2;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 26.5px;
+    letter-spacing: 1.71px;
+}
+
+.sec-11 .galeri {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-11 .galeri h5 {
+    color: #14183E;
+    font-family: Manrope;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: -0.36px;
+    margin-bottom: 30px;
+}
+
+.sec-11 .galeri p {
+    color: #4475F2;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.sec-11 .grid-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 0.5fr 1fr 1fr;
+    grid-template-areas: 
+    "sidebar mainbar mainbar"
+    "footerbar footerbar footerbar";
+    gap: 20px;
+    box-shadow: 0px 2.767px 2.214px 0px rgba(0, 0, 0, 0.02), 0px 6.65px 5.32px 0px rgba(0, 0, 0, 0.03), 0px 12.522px 10.017px 0px rgba(0, 0, 0, 0.04), 0px 22.336px 17.869px 0px rgba(0, 0, 0, 0.04), 0px 41.778px 33.422px 0px rgba(0, 0, 0, 0.05), 0px 100px 80px 0px rgba(0, 0, 0, 0.07);
+    background: linear-gradient(180deg, rgba(192, 189, 189, 0) 14.58%, rgba(186, 184, 184, 0.84) 100%);
+}
+
+.grid-container .sidebar {
+    /* width: 50%; */
+    grid-area: sidebar;
+    border-radius: 8px;
+    background: #fff;
+    height: 60vh;
+}
+
+.grid-container .sidebar p {
+    color: #BDBDBD;
+    padding: 10px 0 10px 20px;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+.grid-container .sidebar h5 {
+    color: #252B42;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.1px;
+    padding: 10px 0 10px 20px;
+}
+
+.grid-container .sidebar h6 {
+    color: #737373;
+    padding: 15px 0;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    padding: 10px 0 10px 20px;
+}
+
+.grid-container .sidebar a {
+    color: #23A6F0;
+    text-decoration: none;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    padding: 10px 0 10px 20px;
+}
+
+.grid-container .sidebar img {
+    border-radius: 8px 8px 0 0;
+}
+
+.grid-container .mainbar {
+    /* width: 70%; */
+    grid-area: mainbar;
+    height: 60vh;
+    /* object-fit: cover; */
+}
+
+.grid-container .mainbar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.grid-container .footerbar {
+    grid-area: footerbar;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.70);
+    backdrop-filter: blur(5px);
+    background-image: url(./images/below-video.jpg);
+}
+
+.grid-container .footerbar h4 {
+    color:  #FFF;
+    padding: 40px 0 10px 20px;
+    text-shadow: 0px 13px 19px rgba(0, 0, 0, 0.24);
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px;
+    letter-spacing: 2.1px;
+}
+
+.grid-container .footerbar p {
+    color: #FFF;
+    text-shadow: 0px 13px 19px rgba(0, 0, 0, 0.24);
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: 2.1px;
+    padding-left: 20px;
+}
+
+.grid-container .footerbar .goo {
+    display: flex;
+    gap: 35px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    color:  #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.2px;
+}
+
+/* SEC-12 STARTS HERE........ */
+.sec-12 {
+    margin-top: 90px;
+}
+
+.sec-12 .sec-12-div {
+    text-align: center;
+}
+
+.sec-12 .sec-12-div p {
+    color: #4737FF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 26.5px;
+    letter-spacing: 1.71px;
+}
+
+.sec-12 .sec-12-div .apa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.sec-12-div .apa h5 {
+    color: #151D21;
+    font-family: Manrope;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 62px;
+    letter-spacing: -1px;
+}
+
+.sec-12-div .apa i {
+    font-size: 36px;
+    color: #84829A;
+}
+
+.sec-12-div .last-p12 p {
+    color: #18191F;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.image12-div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+    gap: 35px;
+}
+
+.image12-div .rates {
+    width: 33%;
+    border-radius: 5px;
+    border: 1px solid #DEDEDE;
+    background:  #FFF;
+    box-shadow: 0px 2.767px 2.214px 0px rgba(0, 0, 0, 0.02), 0px 6.65px 5.32px 0px rgba(0, 0, 0, 0.03), 0px 12.522px 10.017px 0px rgba(0, 0, 0, 0.04), 0px 22.336px 17.869px 0px rgba(0, 0, 0, 0.04), 0px 41.778px 33.422px 0px rgba(0, 0, 0, 0.05), 0px 100px 80px 0px rgba(0, 0, 0, 0.07);
+}
+
+.image12-div .rates img {
+    padding: 40px 0;
+}
+
+.image12-div .rates p {
+    color: #737373;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    padding-bottom: 20px;
+}
+
+.image12-div .rates i {
+    font-size: 22px;
+    color: #E77C40;
+    padding-bottom: 20px;
+}
+
+.image12-div .rates a {
+    color: #23A6F0;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+}
+
+.image12-div .rates h6 {
+    color: #252B42;
+    padding: 20px 0;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+/* SEC-13 STARTS HERE........ */
+
+.sec-13 {
+    margin-top: 10%;
+    box-shadow: 0px 2.767px 2.214px 0px rgba(0, 0, 0, 0.02), 0px 6.65px 5.32px 0px rgba(0, 0, 0, 0.03), 0px 12.522px 10.017px 0px rgba(0, 0, 0, 0.04), 0px 22.336px 17.869px 0px rgba(0, 0, 0, 0.04), 0px 41.778px 33.422px 0px rgba(0, 0, 0, 0.05), 0px 100px 80px 0px rgba(0, 0, 0, 0.07);
+}
+
+.sec-13 p {
+    color: #4475F2;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 26.5px;
+    letter-spacing: 1.71px;
+}
+
+.sec-13 .yang {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.sec-13 .yang h5 {
+    color: #14183E;
+    font-family: Manrope;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: -0.36px;
+}
+
+.sec-13 .yang p {
+    color: #4475F2;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.sec-13 .kenapa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #EBEBEB;
+    padding: 15px 20px;
+}
+
+.sec-13 .kenapa h5 {
+    color: #252B42;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+.sec-13 .kenapa i {
+    border: 1px solid #EBEBEB;
+    padding: 10px 14px;
+    border-radius: 30px;
+}
+
+.sec-13 .long-p {
+    border: 1px solid #EBEBEB;
+    background: #F6F6F6;
+    padding: 10px 20px 15px 20px;
+}
+
+.sec-13 .long-p .mem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.long-p .mem button {
+    color:  #23A6F0;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    border: none;
+    background: none;
+}
+
+.long-p .mem i {
+    background-color: #23A6F0;
+    padding: 12px 13px;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.sec-13 .long-p p {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    width: 90%;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+/* SEC-14 STARTS HERE........ */
+.sec-14 {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 16px;
+    background: #4372EB;
+    box-shadow: 0px 2.767px 2.214px 0px rgba(0, 0, 0, 0.02), 0px 6.65px 5.32px 0px rgba(0, 0, 0, 0.03), 0px 12.522px 10.017px 0px rgba(0, 0, 0, 0.04), 0px 22.336px 17.869px 0px rgba(0, 0, 0, 0.04), 0px 41.778px 33.422px 0px rgba(0, 0, 0, 0.05), 0px 100px 80px 0px rgba(0, 0, 0, 0.07);
+}
+
+.sec-14 .p-div {
+    width: 50%;
+    padding-left: 35px;
+}
+
+.p-div .pee1 {
+    color:  #FFF;
+    font-family: Manrope;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 54px; 
+    padding-bottom: 35px;
+}
+
+.p-div .pee2 {
+    color: #F1F2F6;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom: 15px;
+}
+
+.p-div .pee3-div {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.p-div .pee3-div .pee3 {
+    color:  #FFF;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.p-div .pee3-div i {
+    color: #fff;
+}
+
+.sec-14 .last-img14 {
+    width: 45%;
+}
+
+.sec-14 .last-img14 img {
+    width: 99%;
+}
+
+/* FOOTER SECTION STARTS HERE..... */
+footer {
+    margin-top: 10%;
+    padding-bottom: 40px;
+}
+.footer-div1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 49%;
+}
+
+.footer-logo .fp1 {
+    color: #000;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer-logo .fp2 {
+    color: #9A9EA6;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    padding-bottom: 30px;
+}
+
+.footer-logo .fp2 span {
+    color: #4475F2;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 0 15px 0;
+}
+
+.footer svg {
+    fill: #9A9EA6;
+    width: 25px;
+}
+
+.footer i {
+    color: #9A9EA6;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+.footer p {
+    color: #9A9EA6;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-ryt {
+    width: 49%;
+    column-count: 3;
+    margin-top: -35px;
+}
+
+.footer-ryt .ryt1 .rp1 {
+    color: #000;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.footer-ryt .ryt1  p {
+    padding-bottom: 5px;
+    color: #9A9EA6;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.lp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lp .footerdate {
+    width: 49%;
+}
+
+.lp .footerdate p {
+    color: #9A9EA6;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lp .ryt-reserve {
+    width: 49%;
+    display: flex;
+    gap: 55px;
+}
+
+.lp .ryt-reserve p {
+    color: #9A9EA6;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width:900px) {
+    body {
+        width: 100%;
+    }
+
+    header {
+        flex-direction: column;
+        width: 95%;
+        margin: auto;
+        gap: 0;
+        margin-top: 30px;
+    }
+
+    .serch {
+        width: 58%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .loc br {
+        content: "";
+        padding-right: 10px;
+    }
+
+    .loc br::after {
+        content: "";
+    }
+
+    main {
+        width: 90%;
+        margin: auto;
+    }
+
+    .delete {
+        flex-direction: column;
+    }
+
+    .delete ul {
+        display: none;
+    }
+
+    /* EXPLORE MEDIA QUERRY */
+    .explore {
+        margin-top: 15px;
+    }
+
+    .explore .astro {
+        flex-direction: column;
+    }
+
+    .astro .astro-text {
+        width: 100%;
+    }
+
+    .astro .astro-text h2 {
+        font-size: 45px;
+    }
+
+    .astro-text .tem {
+        font-size: 45px;
+    }
+
+    .astro-text p {
+        font-size: 14px;
+        width: 100%;
+        text-align: justify;
+    }
+
+    .astro-text .pt button {
+        width: 50%;
+    }
+
+    .astro-text .pt span {
+        font-size: 14px;
+    }
+
+    .astro img {
+        width: 100%;
+        margin-top: 20px;
+        margin-right: 0;
+    }
+
+    .logo-div {
+        display: none;
+
+    }
+
+    .destination .fav {
+        flex-direction: column;
+    }
+
+    .destination .fav h5 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .destination .raja {
+        flex-direction: column;
+    }
+
+    .destination .wallpaper {
+        width: 100%;
+        margin-bottom: 50px;
+        box-shadow: none;
+    }
+
+    .reserve .i-gak {
+        flex-direction: column;
+    }
+
+    .i-gak .d-icons {
+        width: 100%;
+    } 
+
+    .lolipop {
+        padding-top: 20px;
+        height: 60px;
+    }
+
+    .loli {
+        padding-top: 25px;
+        height: 60px;
+    }
+
+    .icon-txt p {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .sec9 {
+        margin-top: 50px;
+        width: 100%;
+
+    }
+}
+
